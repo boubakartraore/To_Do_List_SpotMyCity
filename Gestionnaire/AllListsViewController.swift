@@ -124,8 +124,6 @@ class AllListsViewController: UITableViewController, ListDetailViewControllerDel
         let indexPaths = [indexPath]
         tableView.deleteRows(at: indexPaths, with: .automatic)
     }
-    
-    /* Page 169 */
 
     override func tableView(_ tableView: UITableView,
                             accessoryButtonTappedForRowWith indexPath: IndexPath) {

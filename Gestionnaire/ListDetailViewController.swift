@@ -26,7 +26,6 @@ class ListDetailViewController: UITableViewController, UITextFieldDelegate, Icon
     var iconName = "folder"
 
     /* La fonction pour editer , plus precisément l'ajout du nom à modifier dans le textfield et
-     @IBOutlet weak var iconImageView: UIImageView!
      l'activation du bouton done/valider */
     
     override func viewDidLoad() {
